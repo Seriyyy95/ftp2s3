@@ -15,7 +15,7 @@ ftp2s3 -aws-region="eu-west-1" \
 -aws-secret-access-key="AWS_SECRET" \
 -aws-endpoint="AWS_ENDPOINT" \
 -ftp-username="svimes" \
--ftp-username="swordfish" \
+-ftp-password="swordfish" \
 -ftp-server-name="PseudopolisYardFTPd"
 ```
 
@@ -30,7 +30,7 @@ aws-bucket-name my-s3-bucket
 aws-access-key-id AWS_KEY
 aws-secret-access-key AWS_SECRET
 ftp-username svimes
-ftp-username swordfish
+ftp-password swordfish
 ftp-server-name PseudopolisYardFTPd
 ```
 
