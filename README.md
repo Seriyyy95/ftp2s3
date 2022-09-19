@@ -13,6 +13,7 @@ ftp2s3 -aws-region="eu-west-1" \
 -aws-bucket-name="my-s3-bucket" \
 -aws-access-key-id="AWS_KEY" \
 -aws-secret-access-key="AWS_SECRET" \
+-aws-endpoint="AWS_ENDPOINT" \
 -ftp-username="svimes" \
 -ftp-username="swordfish" \
 -ftp-server-name="PseudopolisYardFTPd"

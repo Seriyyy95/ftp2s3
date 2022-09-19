@@ -5,8 +5,8 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/credentials"
+	"github.com/gebv/ftp2s3-1/s3driver"
 	"github.com/koofr/graval"
-	"github.com/matiaskorhonen/ftp2s3/s3driver"
 
 	"github.com/namsral/flag"
 )
@@ -23,6 +23,7 @@ var awsRegion string
 var awsAccessKeyID string
 var awsSecretAccessKey string
 var awsBucketName string
+var awsEndpoint string
 
 func init() {
 	flag.StringVar(&host, "host", "127.0.0.1", "host to bind to")
@@ -35,6 +36,7 @@ func init() {
 	flag.StringVar(&awsAccessKeyID, "aws-access-key-id", "", "AWS access key ID")
 	flag.StringVar(&awsSecretAccessKey, "aws-secret-access-key", "", "AWS secret access key")
 	flag.StringVar(&awsBucketName, "aws-bucket-name", "", "S3 bucket name")
+	flag.StringVar(&awsEndpoint, "aws-endpoint", "", "AWS endpoint path")
 
 	flag.String("config", "", "path to config file")
 
@@ -50,6 +52,10 @@ func main() {
 		log.Fatalln("auth aws, ", err)
 	}
 	awsCfg := aws.NewConfig().WithRegion(awsRegion).WithCredentials(creds)
+
+	if awsEndpoint != "" {
+		awsCfg.WithEndpoint(awsEndpoint).WithS3ForcePathStyle(true)
+	}
 
 	factory := &s3driver.S3DriverFactory{
 		Username:      username,

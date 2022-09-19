@@ -1,0 +1,71 @@
+# github.com/AllenDang/w32 v0.0.0-20170622012957-9a4ee0f7d224
+## explicit
+github.com/AllenDang/w32
+# github.com/aws/aws-sdk-go v1.12.46
+## explicit
+github.com/aws/aws-sdk-go/aws
+github.com/aws/aws-sdk-go/aws/awserr
+github.com/aws/aws-sdk-go/aws/awsutil
+github.com/aws/aws-sdk-go/aws/client
+github.com/aws/aws-sdk-go/aws/client/metadata
+github.com/aws/aws-sdk-go/aws/corehandlers
+github.com/aws/aws-sdk-go/aws/credentials
+github.com/aws/aws-sdk-go/aws/credentials/ec2rolecreds
+github.com/aws/aws-sdk-go/aws/credentials/endpointcreds
+github.com/aws/aws-sdk-go/aws/credentials/stscreds
+github.com/aws/aws-sdk-go/aws/defaults
+github.com/aws/aws-sdk-go/aws/ec2metadata
+github.com/aws/aws-sdk-go/aws/endpoints
+github.com/aws/aws-sdk-go/aws/request
+github.com/aws/aws-sdk-go/aws/session
+github.com/aws/aws-sdk-go/aws/signer/v4
+github.com/aws/aws-sdk-go/internal/shareddefaults
+github.com/aws/aws-sdk-go/private/protocol
+github.com/aws/aws-sdk-go/private/protocol/query
+github.com/aws/aws-sdk-go/private/protocol/query/queryutil
+github.com/aws/aws-sdk-go/private/protocol/rest
+github.com/aws/aws-sdk-go/private/protocol/restxml
+github.com/aws/aws-sdk-go/private/protocol/xml/xmlutil
+github.com/aws/aws-sdk-go/service/s3
+github.com/aws/aws-sdk-go/service/sts
+# github.com/go-ini/ini v1.32.0
+## explicit
+github.com/go-ini/ini
+# github.com/jehiah/go-strftime v0.0.0-20171201141054-1d33003b3869
+## explicit
+github.com/jehiah/go-strftime
+# github.com/jmespath/go-jmespath v0.0.0-20160202185014-0b12d6b521d8
+## explicit
+github.com/jmespath/go-jmespath
+# github.com/koofr/go-cryptoutils v0.0.0-20151104083704-fe224388747f
+## explicit
+github.com/koofr/go-cryptoutils/bettermd5
+# github.com/koofr/go-ioutils v0.0.0-20170915231225-2135a71116c3
+## explicit
+github.com/koofr/go-ioutils
+# github.com/koofr/go-netutils v0.0.0-20150109181258-a882ff2660b6
+## explicit
+# github.com/koofr/goevent v0.0.0-20140424094753-2785514d88a4
+## explicit
+github.com/koofr/goevent
+# github.com/koofr/graval v0.0.0-20171012130905-a47c49a8a529
+## explicit
+github.com/koofr/graval
+# github.com/koofr/pb v0.0.0-20130927161634-0ccf57bef0b6
+## explicit
+github.com/koofr/pb
+# github.com/namsral/flag v1.7.4-pre
+## explicit
+github.com/namsral/flag
+# github.com/onsi/ginkgo v1.16.5
+## explicit; go 1.16
+# github.com/onsi/gomega v1.20.2
+## explicit; go 1.18
+# github.com/smartystreets/goconvey v1.7.2
+## explicit; go 1.16
+# github.com/stretchr/testify v1.8.0
+## explicit; go 1.13
+# golang.org/x/net v0.0.0-20220907135653-1e95f45603a7
+## explicit; go 1.17
+# gopkg.in/ini.v1 v1.67.0
+## explicit
